@@ -603,8 +603,8 @@ Media queries
   .bars {
     width: 32px;
     height: 0.5px;
-    background-color: #9d9dab;
-    /* background-color: #090523; */
+    /* background-color: #9d9dab; */
+    background-color: #03000b;
     overflow: hidden;
     position: absolute;
     -webkit-transform-origin: center center;
@@ -614,7 +614,7 @@ Media queries
   }
   .open-button:focus .bars,
   .open-button:hover .bars {
-    background-color: #03000b;
+    background-color: rgba(3, 0, 11, 0.75);
     transition: all 0.2s ease-in-out;
   }
   .bar1 {

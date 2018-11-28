@@ -604,7 +604,7 @@ Media queries
     width: 32px;
     height: 0.5px;
     background-color: #9d9dab;
-    background-color: #090523;
+    /* background-color: #090523; */
     overflow: hidden;
     position: absolute;
     -webkit-transform-origin: center center;
@@ -618,7 +618,7 @@ Media queries
     transition: all 0.2s ease-in-out;
   }
   .bar1 {
-    top: -11.5px;
+    top: -10.5px;
   }
   .bar3 {
     top: 9.5px;

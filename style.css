@@ -602,9 +602,9 @@ Media queries
   }
   .bars {
     width: 32px;
-    height: 0.5px;
+    height: 2px;
     /* background-color: #9d9dab; */
-    background-color: #03000b;
+    background-color: rgba(3, 0, 11, 0.4);
     overflow: hidden;
     position: absolute;
     -webkit-transform-origin: center center;
@@ -614,11 +614,11 @@ Media queries
   }
   .open-button:focus .bars,
   .open-button:hover .bars {
-    background-color: rgba(3, 0, 11, 0.75);
+    background-color: rgba(3, 0, 11, 0.5);
     transition: all 0.2s ease-in-out;
   }
   .bar1 {
-    top: -10.5px;
+    top: -11.5px;
   }
   .bar3 {
     top: 9.5px;

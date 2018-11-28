@@ -269,11 +269,6 @@ p {
 .codepen {
   align-items: center;
 }
-.github,
-.codepen,
-.footer-content {
-  min-height: 480px;
-}
 .tile-overlay,
 .tile-link,
 .code-repository-link,
@@ -438,6 +433,7 @@ p {
   align-items: center;
   justify-content: flex-start;
   padding-top: 64px;
+  padding-bottom: 64px;
   padding-left: 40px;
   background: var(--color-background-footer);
 }
@@ -682,7 +678,12 @@ Media queries
     padding-top: 32px;
     padding-left: 0;
   }
-  .project-tile {
+  .footer-content {
+    padding-bottom: 32px;
+  }
+  .project-tile,
+  .github,
+  .codepen {
     padding: 32px;
   }
 }
@@ -725,7 +726,9 @@ Media queries
   .footer-content > .request {
     width: 100%;
   }
-  .project-tile {
+  .project-tile,
+  .github,
+  .codepen {
     padding: 24px;
   }
   .tile-overlay__text h3:after {

@@ -602,7 +602,7 @@ Media queries
   }
   .bars {
     width: 32px;
-    height: 0.5px;
+    height: 4px;
     background-color: #9d9dab;
     background-color: #090523;
     overflow: hidden;

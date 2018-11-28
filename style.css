@@ -604,6 +604,7 @@ Media queries
     width: 32px;
     height: 0.5px;
     background-color: #9d9dab;
+    background-color: #090523;
     overflow: hidden;
     position: absolute;
     -webkit-transform-origin: center center;

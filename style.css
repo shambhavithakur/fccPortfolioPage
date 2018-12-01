@@ -25,13 +25,6 @@ a:active,
 a:hover {
   outline-width: 0;
 }
-button {
-  border: none;
-  outline: none;
-  background: none;
-  font-family: inherit;
-  -webkit-tap-highlight-color: transparent;
-}
 
 /*-----------------------------------------------
 Specific to this page
@@ -561,13 +554,15 @@ Media queries
     background: rgba(230, 228, 244, 0.8);
   }
   /* Open-close navigation list */
-  button span {
+  .button span {
     display: block;
   }
   .open-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: -4px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 1px 0;
     line-height: 0;
     text-align: center;
     width: 44px;
@@ -600,7 +595,7 @@ Media queries
     width: 32px;
     height: 2px;
     /* background-color: #9d9dab; */
-    background-color: rgba(3, 0, 11, 0.4);
+    background-color: rgba(77, 48, 156, 0.3);
     overflow: hidden;
     position: absolute;
     -webkit-transform-origin: center center;
